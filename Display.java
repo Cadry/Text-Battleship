@@ -5,18 +5,18 @@ public class Display {
   int[] coord = new int[2];
 
 
-  public static void main (String args[]){
-    Display d= new Display();
-    Player p = new Player();
-    Computer c = new Computer();
-    d.playerBoard= p.setPlayer();
-    d.showComputerBoard(d.playerBoard);
-    // d.displayGameProgress();
-    d.coord=p.getMove();
-    System.out.println(c.HitorMiss(p));
-
-    // p.HitorMiss(d.coord);
-
+  // public static void main (String args[]){
+  //   Display d= new Display();
+  //   Player p = new Player();
+  //   Computer c = new Computer();
+  //   d.playerBoard= p.setPlayer();
+  //   d.showComputerBoard(d.playerBoard);
+  //   d.displayGameProgress();
+  //   d.coord=p.getMove();
+  //   System.out.println(c.HitorMiss(p));
+  //
+  //   p.HitorMiss(d.coord);
+  //
 
   }
 
