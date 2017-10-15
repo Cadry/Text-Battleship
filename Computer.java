@@ -12,6 +12,14 @@ public class Computer {
   public void getMove() {
     //Gets move of computer
     //stores move in coord
+  public int[] getMove() {
+    //I do not know if separate variables need to be instanced -A
+    //Random for now?
+    Random move1 = new Random(); 
+    Random move0 = new Random();
+    coord[1] = move1.nextInt(5);
+    coord[0] = move0.nextInt(5);
+    }
   }
   public boolean HitorMiss(Player p1) {
     //Takes in computer’s move and see if hit’s player's game pieces
